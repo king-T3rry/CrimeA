@@ -1,6 +1,6 @@
-# MiniiChat
+# NOVA AI
 
-A small, open-source Android chat client for any OpenAI-compatible LLM API. Native Kotlin + Jetpack Compose, no backend, bring your own keys.
+NOVA AI is a customized Android chat client based on NOVA AI, for OpenAI-compatible LLM APIs. Native Kotlin + Jetpack Compose, no backend, bring your own keys.
 
 ## Features
 
@@ -22,7 +22,7 @@ A small, open-source Android chat client for any OpenAI-compatible LLM API. Nati
 - **Latest release**: <https://github.com/Minis233/miniichat/releases/latest>
 - Each release ships a signed `release` APK (for general use) and a `debug` APK (for development).
 
-## Configuration
+## NOVA AI / crime preset\n\nA `crime` provider preset is included for `https://discovery-api.intern-ai.org.cn/v1` with model `deepseek-v4-pro-0813`. Availability depends on your API account and key. Enter your own key in the app; do not commit keys to source code.\n\n## Configuration
 
 1. Open the drawer (top-left) → **Settings → Providers**
 2. **Add provider**, pick a preset (or "Custom"), paste your API key
@@ -88,9 +88,10 @@ app/src/main/kotlin/com/miniichat
 
 ## Acknowledgements
 
-This project's feature scope is inspired by two excellent open-source LLM clients. **No source code from either project is copied** — MiniiChat is original Kotlin/Compose, and the references below are to their public README feature lists (functionality is not protected by copyright). Both deserve a star.
+This project's feature scope is inspired by two excellent open-source LLM clients. **No source code from either project is copied** — NOVA AI is original Kotlin/Compose, and the references below are to their public README feature lists (functionality is not protected by copyright). Both deserve a star.
 
 - **[rikkahub/rikkahub](https://github.com/rikkahub/rikkahub)** — A native Android LLM chat client, Apache-2.0. Inspired the Material You theming, multi-provider switching, prompt-variables format, and custom-headers idea.
 - **[Chevey339/kelivo](https://github.com/Chevey339/kelivo)** — A Flutter LLM chat client, AGPL-3.0. Inspired the assistant-presets concept, multi-language support, and the per-provider extra-body customization angle.
 
-If you build something on top of MiniiChat, please go give those projects a ⭐ as well.
+If you build something on top of NOVA AI, please go give those projects a ⭐ as well.
+\n\n## Attribution\n\nThis project is based on MiniiChat and retains its MIT license. See `LICENSE` for the original license notice. The app branding and theme have been customized for NOVA AI.\n
